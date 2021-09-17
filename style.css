@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgba(255, 255, 255, 0.253);
+  height: 100vh;
+  overflow-y: hidden;
+}
+
+.grocery-container {
+  width: 50%;
+  min-width: 345px;
+  height: auto;
+  margin: 90px auto;
+  display: flex;
+  justify-content: center;
+  /* border: 1px solid red; */
+}
+
+.container {
+  min-width: 99%;
+  padding: 30px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 5px;
+  transition: all 0.3s;
+
+  -webkit-box-shadow: 0px 0px 10px 0px rgba(50, 50, 50, 0.75);
+  -moz-box-shadow: 0px 0px 10px 0px rgba(50, 50, 50, 0.75);
+  box-shadow: 0px 0px 10px 0px rgba(50, 50, 50, 0.75);
+}
+
+h2 {
+  margin-bottom: 15px;
+  color: rgba(10, 0, 53, 0.801);
+}
+
+input[type="text"] {
+  padding: 8px;
+  width: 30vw;
+  min-width: 220px;
+  border-radius: 5px;
+  border: none;
+  background-color: lightblue;
+}
+
+input[type="submit"] {
+  padding: 8px 15px;
+  background-color: rgba(0, 124, 165, 0.548);
+  border: none;
+  border-radius: 5px;
+}
+
+.plates img {
+  position: absolute;
+  width: 20px;
+  right: 0px;
+  cursor: pointer;
+}
+
+.plates li {
+  display: flex;
+  position: relative;
+  align-items: center;
+  width: 35vw;
+  min-width: 230px;
+  height: 30px;
+  text-transform: capitalize;
+  font-size: 1.2rem;
+  margin-top: 20px;
+}
+
+input[type="checkbox"] {
+  position: absolute;
+  right: 30px;
+}
+
+input[type="button"] {
+  border: none;
+  margin-top: 20px;
+  background-color: #fff;
+  color: rgba(255, 0, 0, 0.781);
+  cursor: pointer;
+}
